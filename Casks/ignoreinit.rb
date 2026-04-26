@@ -3,7 +3,7 @@ cask "ignoreinit" do
   name "ignoreinit"
   desc "A tool for creating .gitignore files from the command line"
   homepage "https://github.com/Loupeznik/ignoreinit"
-  version "1.1.2"
+  version "1.2.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "ignoreinit" do
   on_macos do
     on_intel do
       url "https://github.com/Loupeznik/ignoreinit/releases/download/v#{version}/ignoreinit_#{version}_darwin_amd64.tar.gz"
-      sha256 "6486b8b1faa531d832fe10a5db91578ac97d90f25f3970ebfd0712888a7de667"
+      sha256 "2196f2803ebf05331425579e79457e37e9d9112f1048dcbe21c406511d14280f"
     end
     on_arm do
       url "https://github.com/Loupeznik/ignoreinit/releases/download/v#{version}/ignoreinit_#{version}_darwin_arm64.tar.gz"
-      sha256 "deec36189048cf3df6542b248bde674c64198999a0bc8607e60d78262a4011ff"
+      sha256 "d1161d2c3c38a483f5162c2606821df9c9db77189eea1eae43a63f5f8be308f1"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/Loupeznik/ignoreinit/releases/download/v#{version}/ignoreinit_#{version}_linux_amd64.tar.gz"
-      sha256 "966f4f68b8eee19c8d90be54c18cca156ffaf9b838717695afd65e8181a10def"
+      sha256 "55125459890e9b91bee860f8124fc366a695f309ba0f43f78857f909ef7c249d"
     end
     on_arm do
       url "https://github.com/Loupeznik/ignoreinit/releases/download/v#{version}/ignoreinit_#{version}_linux_arm64.tar.gz"
-      sha256 "8e9537f9390d0d47467fb9fafca2ecd0b1eefec844edd10ffc608a127e2d28a2"
+      sha256 "5e0fada0918d63a3ef990c9d5717d57cc8a3af895ddae45338e7a5c716e4219c"
     end
   end
 
