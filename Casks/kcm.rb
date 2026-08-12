@@ -3,7 +3,7 @@ cask "kcm" do
   name "kcm"
   desc "TUI + CLI for managing kubeconfig files and kubectl contexts"
   homepage "https://github.com/Loupeznik/kubeconfig-manager"
-  version "0.10.2"
+  version "0.10.3"
 
   livecheck do
     skip "Auto-generated on release."
@@ -56,22 +56,22 @@ cask "kcm" do
   on_macos do
     on_intel do
       url "https://github.com/Loupeznik/kubeconfig-manager/releases/download/v#{version}/kubeconfig-manager_#{version}_darwin_amd64.tar.gz"
-      sha256 "1d8a939720150fcb47b2da61acd8ef7f2d96444d58cefe0cd0cc0e79061874cc"
+      sha256 "512351f1b7dc9ff1e7c30af371ef5a23ba2f24d20016a9da5505e688012493ed"
     end
     on_arm do
       url "https://github.com/Loupeznik/kubeconfig-manager/releases/download/v#{version}/kubeconfig-manager_#{version}_darwin_arm64.tar.gz"
-      sha256 "77e0ac46cf4d782774cbc209be00b99672c695d3adb5686dd0ce98efa4212843"
+      sha256 "2ade718ed0ce62999d5dadb2b0909466ca41c3c83527579cb695077b9e3b4d64"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/Loupeznik/kubeconfig-manager/releases/download/v#{version}/kubeconfig-manager_#{version}_linux_amd64.tar.gz"
-      sha256 "c9764e613648a48000fc4a872bac6abc1b66f8e948f61a8fe11ebcdd18612ca1"
+      sha256 "1e924848ee3ddb47b1329e92723478575d8ae500a67e0dcdbfde99da73ac4e4a"
     end
     on_arm do
       url "https://github.com/Loupeznik/kubeconfig-manager/releases/download/v#{version}/kubeconfig-manager_#{version}_linux_arm64.tar.gz"
-      sha256 "989dda3f492b8a2a0951837945d36a38571bdbb9fff614ce949c6ff4b942dc7f"
+      sha256 "f0c3b54745f6ff063c4817e979fd27d03406af531010fd9c042faa52b5135b57"
     end
   end
 
